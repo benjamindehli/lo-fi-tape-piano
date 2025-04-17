@@ -22,29 +22,29 @@
             </control>
 
             <!-- Envelope attack -->
-            <control x="383" y="30" width="49" height="49" parameterName="Attack" type="float" minValue="0" maxValue="10" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+            <control x="381" y="29" width="51" height="51" parameterName="Attack" type="float" minValue="0" maxValue="10" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
                 <binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
             </control>
             <!-- Envelope decay -->
-            <control x="483" y="30" width="49" height="49" parameterName="Decay" type="float" minValue="0" maxValue="10" value="5" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+            <control x="481" y="29" width="51" height="51" parameterName="Decay" type="float" minValue="0" maxValue="10" value="5" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
                 <binding type="amp" level="instrument" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="2" />
             </control>
             <!-- Envelope sustain -->
-            <control x="583" y="30" width="49" height="49" parameterName="Sustain" type="float" minValue="0" maxValue="10" value="10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+            <control x="581" y="29" width="51" height="51" parameterName="Sustain" type="float" minValue="0" maxValue="10" value="10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
                 <binding type="amp" level="instrument" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
             </control>
             <!-- Envelope release -->
-            <control x="683" y="30" width="49" height="49" parameterName="Release" type="float" minValue="0" maxValue="10" value="1.9" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+            <control x="681" y="29" width="51" height="51" parameterName="Release" type="float" minValue="0" maxValue="10" value="1.9" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
                 <binding type="amp" level="instrument" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="1.5" />
             </control>
 
             <!-- Echo -->
-            <control x="583" y="118" width="49" height="49" parameterName="echo" type="percent" minValue="0" maxValue="100" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+            <control x="581" y="117" width="51" height="51" parameterName="Echo" type="percent" minValue="0" maxValue="100" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
                 <binding type="effect" level="instrument" position="0" parameter="FX_MIX" factor="0.01" />
             </control>
 
             <!-- Reverb -->
-            <control x="683" y="118" width="49" height="49" parameterName="reverb" type="percent" minValue="0" maxValue="100" value="20.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+            <control x="681" y="117" width="51" height="51" parameterName="Reverb" type="percent" minValue="0" maxValue="100" value="20.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
                 <binding type="effect" level="instrument" position="1" parameter="FX_MIX" factor="0.01" />
             </control>
         </tab>
