@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler>
+    <ui bgImage="Resources/background.jpg" width="812" height="375" layoutMode="relative" bgMode="top_left">
+        <keyboard>
+            <color loNote="0" hiNote="23" color="FF000000" />
+            <color loNote="24" hiNote="96" color="FFFCFBFA" />
+            <color loNote="97" hiNote="127" color="FF000000" />
+        </keyboard>
+        <tab name="main">
+            <!-- Telephone mic -->
+            <control x="91" y="25" width="39" height="163" parameterName="Telephone mic" type="float" minValue="0" maxValue="10" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/fader.png" customSkinNumFrames="59" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="amp" level="tag" identifier="telephone" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="2" />
+            </control>
+            <!-- Gooseneck mic -->
+            <control x="191" y="25" width="39" height="163" parameterName="Gooseneck mic" type="float" minValue="0" maxValue="10" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/fader.png" customSkinNumFrames="59" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="amp" level="tag" identifier="gooseneck" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="2" />
+            </control>
+            <!-- Condenser mic -->
+            <control x="291" y="25" width="39" height="163" parameterName="Condenser mic" type="float" minValue="0" maxValue="10" value="10" style="custom_skin_vertical_drag" customSkinImage="Resources/fader.png" customSkinNumFrames="59" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="amp" level="tag" identifier="condenser" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="3" />
+            </control>
+
+            <!-- Envelope attack -->
+            <control x="381" y="29" width="51" height="51" parameterName="Attack" type="float" minValue="0" maxValue="10" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+            </control>
+            <!-- Envelope decay -->
+            <control x="481" y="29" width="51" height="51" parameterName="Decay" type="float" minValue="0" maxValue="10" value="5" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="amp" level="instrument" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="2" />
+            </control>
+            <!-- Envelope sustain -->
+            <control x="581" y="29" width="51" height="51" parameterName="Sustain" type="float" minValue="0" maxValue="10" value="10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="amp" level="instrument" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+            </control>
+            <!-- Envelope release -->
+            <control x="681" y="29" width="51" height="51" parameterName="Release" type="float" minValue="0" maxValue="10" value="1.9" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="amp" level="instrument" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="1.5" />
+            </control>
+
+            <!-- Echo -->
+            <control x="581" y="117" width="51" height="51" parameterName="Echo" type="percent" minValue="0" maxValue="100" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="effect" level="instrument" position="0" parameter="FX_MIX" factor="0.01" />
+            </control>
+
+            <!-- Reverb -->
+            <control x="681" y="117" width="51" height="51" parameterName="Reverb" type="percent" minValue="0" maxValue="100" value="20.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="55" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+                <binding type="effect" level="instrument" position="1" parameter="FX_MIX" factor="0.01" />
+            </control>
+        </tab>
+    </ui>
+    <groups>
+        <group tags="telephone">
+            <sample loNote="24" hiNote="24"  rootNote="24" path="Samples/Telephone/Telephone_0C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="25" hiNote="25"  rootNote="25" path="Samples/Telephone/Telephone_0C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="26" hiNote="26"  rootNote="26" path="Samples/Telephone/Telephone_0D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="27" hiNote="27"  rootNote="27" path="Samples/Telephone/Telephone_0D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="28" hiNote="28"  rootNote="28" path="Samples/Telephone/Telephone_0E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="29" hiNote="29"  rootNote="29" path="Samples/Telephone/Telephone_0F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="30" hiNote="30"  rootNote="30" path="Samples/Telephone/Telephone_0F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="31" hiNote="31"  rootNote="31" path="Samples/Telephone/Telephone_0G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="32" hiNote="32"  rootNote="32" path="Samples/Telephone/Telephone_0G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="33" hiNote="33"  rootNote="33" path="Samples/Telephone/Telephone_0A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="34" hiNote="34"  rootNote="34" path="Samples/Telephone/Telephone_0A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="35" hiNote="35"  rootNote="35" path="Samples/Telephone/Telephone_0B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="36" hiNote="36"  rootNote="36" path="Samples/Telephone/Telephone_1C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="37" hiNote="37"  rootNote="37" path="Samples/Telephone/Telephone_1C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="38" hiNote="38"  rootNote="38" path="Samples/Telephone/Telephone_1D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="39" hiNote="39"  rootNote="39" path="Samples/Telephone/Telephone_1D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="40" hiNote="40"  rootNote="40" path="Samples/Telephone/Telephone_1E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="41" hiNote="41"  rootNote="41" path="Samples/Telephone/Telephone_1F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="42" hiNote="42"  rootNote="42" path="Samples/Telephone/Telephone_1F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="43" hiNote="43"  rootNote="43" path="Samples/Telephone/Telephone_1G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="44" hiNote="44"  rootNote="44" path="Samples/Telephone/Telephone_1G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="45" hiNote="45"  rootNote="45" path="Samples/Telephone/Telephone_1A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="46" hiNote="46"  rootNote="46" path="Samples/Telephone/Telephone_1A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="47" hiNote="47"  rootNote="47" path="Samples/Telephone/Telephone_1B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="48" hiNote="48"  rootNote="48" path="Samples/Telephone/Telephone_2C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="49" hiNote="49"  rootNote="49" path="Samples/Telephone/Telephone_2C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="50" hiNote="50"  rootNote="50" path="Samples/Telephone/Telephone_2D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="51" hiNote="51"  rootNote="51" path="Samples/Telephone/Telephone_2D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="52" hiNote="52"  rootNote="52" path="Samples/Telephone/Telephone_2E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="53" hiNote="53"  rootNote="53" path="Samples/Telephone/Telephone_2F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="54" hiNote="54"  rootNote="54" path="Samples/Telephone/Telephone_2F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="55" hiNote="55"  rootNote="55" path="Samples/Telephone/Telephone_2G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="56" hiNote="56"  rootNote="56" path="Samples/Telephone/Telephone_2G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="57" hiNote="57"  rootNote="57" path="Samples/Telephone/Telephone_2A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="58" hiNote="58"  rootNote="58" path="Samples/Telephone/Telephone_2A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="59" hiNote="59"  rootNote="59" path="Samples/Telephone/Telephone_2B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="60" hiNote="60"  rootNote="60" path="Samples/Telephone/Telephone_3C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="61" hiNote="61"  rootNote="61" path="Samples/Telephone/Telephone_3C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="62" hiNote="62"  rootNote="62" path="Samples/Telephone/Telephone_3D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="63" hiNote="63"  rootNote="63" path="Samples/Telephone/Telephone_3D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="64" hiNote="64"  rootNote="64" path="Samples/Telephone/Telephone_3E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="65" hiNote="65"  rootNote="65" path="Samples/Telephone/Telephone_3F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="66" hiNote="66"  rootNote="66" path="Samples/Telephone/Telephone_3F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="67" hiNote="67"  rootNote="67" path="Samples/Telephone/Telephone_3G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="68" hiNote="68"  rootNote="68" path="Samples/Telephone/Telephone_3G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="69" hiNote="69"  rootNote="69" path="Samples/Telephone/Telephone_3A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="70" hiNote="70"  rootNote="70" path="Samples/Telephone/Telephone_3A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="71" hiNote="71"  rootNote="71" path="Samples/Telephone/Telephone_3B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="72" hiNote="72"  rootNote="72" path="Samples/Telephone/Telephone_4C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="73" hiNote="73"  rootNote="73" path="Samples/Telephone/Telephone_4C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="74" hiNote="74"  rootNote="74" path="Samples/Telephone/Telephone_4D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="75" hiNote="75"  rootNote="75" path="Samples/Telephone/Telephone_4D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="76" hiNote="76"  rootNote="76" path="Samples/Telephone/Telephone_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="77" hiNote="77"  rootNote="77" path="Samples/Telephone/Telephone_4F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="78" hiNote="78"  rootNote="78" path="Samples/Telephone/Telephone_4F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="79" hiNote="79"  rootNote="79" path="Samples/Telephone/Telephone_4G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="80" hiNote="80"  rootNote="80" path="Samples/Telephone/Telephone_4G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="81" hiNote="81"  rootNote="81" path="Samples/Telephone/Telephone_4A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="82" hiNote="82"  rootNote="82" path="Samples/Telephone/Telephone_4A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="83" hiNote="83"  rootNote="83" path="Samples/Telephone/Telephone_4B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="84" hiNote="84"  rootNote="84" path="Samples/Telephone/Telephone_5C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="85" hiNote="85"  rootNote="85" path="Samples/Telephone/Telephone_5C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="86" hiNote="86"  rootNote="86" path="Samples/Telephone/Telephone_5D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="87" hiNote="87"  rootNote="87" path="Samples/Telephone/Telephone_5D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="88" hiNote="88"  rootNote="88" path="Samples/Telephone/Telephone_5E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="89" hiNote="89"  rootNote="89" path="Samples/Telephone/Telephone_5F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="90" hiNote="90"  rootNote="90" path="Samples/Telephone/Telephone_5F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="91" hiNote="91"  rootNote="91" path="Samples/Telephone/Telephone_5G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="92" hiNote="92"  rootNote="92" path="Samples/Telephone/Telephone_5G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="93" hiNote="93"  rootNote="93" path="Samples/Telephone/Telephone_5A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="94" hiNote="94"  rootNote="94" path="Samples/Telephone/Telephone_5A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="95" hiNote="95"  rootNote="95" path="Samples/Telephone/Telephone_5B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="96" hiNote="96"  rootNote="96" path="Samples/Telephone/Telephone_6C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+        </group>
+        <group tags="gooseneck">
+            <sample loNote="24" hiNote="24"  rootNote="24" path="Samples/SmallMicInside/SmallMicInside_0C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="25" hiNote="25"  rootNote="25" path="Samples/SmallMicInside/SmallMicInside_0C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="26" hiNote="26"  rootNote="26" path="Samples/SmallMicInside/SmallMicInside_0D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="27" hiNote="27"  rootNote="27" path="Samples/SmallMicInside/SmallMicInside_0D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="28" hiNote="28"  rootNote="28" path="Samples/SmallMicInside/SmallMicInside_0E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="29" hiNote="29"  rootNote="29" path="Samples/SmallMicInside/SmallMicInside_0F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="30" hiNote="30"  rootNote="30" path="Samples/SmallMicInside/SmallMicInside_0F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="31" hiNote="31"  rootNote="31" path="Samples/SmallMicInside/SmallMicInside_0G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="32" hiNote="32"  rootNote="32" path="Samples/SmallMicInside/SmallMicInside_0G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="33" hiNote="33"  rootNote="33" path="Samples/SmallMicInside/SmallMicInside_0A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="34" hiNote="34"  rootNote="34" path="Samples/SmallMicInside/SmallMicInside_0A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="35" hiNote="35"  rootNote="35" path="Samples/SmallMicInside/SmallMicInside_0B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="36" hiNote="36"  rootNote="36" path="Samples/SmallMicInside/SmallMicInside_1C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="37" hiNote="37"  rootNote="37" path="Samples/SmallMicInside/SmallMicInside_1C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="38" hiNote="38"  rootNote="38" path="Samples/SmallMicInside/SmallMicInside_1D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="39" hiNote="39"  rootNote="39" path="Samples/SmallMicInside/SmallMicInside_1D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="40" hiNote="40"  rootNote="40" path="Samples/SmallMicInside/SmallMicInside_1E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="41" hiNote="41"  rootNote="41" path="Samples/SmallMicInside/SmallMicInside_1F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="42" hiNote="42"  rootNote="42" path="Samples/SmallMicInside/SmallMicInside_1F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="43" hiNote="43"  rootNote="43" path="Samples/SmallMicInside/SmallMicInside_1G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="44" hiNote="44"  rootNote="44" path="Samples/SmallMicInside/SmallMicInside_1G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="45" hiNote="45"  rootNote="45" path="Samples/SmallMicInside/SmallMicInside_1A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="46" hiNote="46"  rootNote="46" path="Samples/SmallMicInside/SmallMicInside_1A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="47" hiNote="47"  rootNote="47" path="Samples/SmallMicInside/SmallMicInside_1B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="48" hiNote="48"  rootNote="48" path="Samples/SmallMicInside/SmallMicInside_2C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="49" hiNote="49"  rootNote="49" path="Samples/SmallMicInside/SmallMicInside_2C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="50" hiNote="50"  rootNote="50" path="Samples/SmallMicInside/SmallMicInside_2D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="51" hiNote="51"  rootNote="51" path="Samples/SmallMicInside/SmallMicInside_2D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="52" hiNote="52"  rootNote="52" path="Samples/SmallMicInside/SmallMicInside_2E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="53" hiNote="53"  rootNote="53" path="Samples/SmallMicInside/SmallMicInside_2F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="54" hiNote="54"  rootNote="54" path="Samples/SmallMicInside/SmallMicInside_2F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="55" hiNote="55"  rootNote="55" path="Samples/SmallMicInside/SmallMicInside_2G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="56" hiNote="56"  rootNote="56" path="Samples/SmallMicInside/SmallMicInside_2G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="57" hiNote="57"  rootNote="57" path="Samples/SmallMicInside/SmallMicInside_2A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="58" hiNote="58"  rootNote="58" path="Samples/SmallMicInside/SmallMicInside_2A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="59" hiNote="59"  rootNote="59" path="Samples/SmallMicInside/SmallMicInside_2B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="60" hiNote="60"  rootNote="60" path="Samples/SmallMicInside/SmallMicInside_3C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="61" hiNote="61"  rootNote="61" path="Samples/SmallMicInside/SmallMicInside_3C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="62" hiNote="62"  rootNote="62" path="Samples/SmallMicInside/SmallMicInside_3D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="63" hiNote="63"  rootNote="63" path="Samples/SmallMicInside/SmallMicInside_3D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="64" hiNote="64"  rootNote="64" path="Samples/SmallMicInside/SmallMicInside_3E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="65" hiNote="65"  rootNote="65" path="Samples/SmallMicInside/SmallMicInside_3F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="66" hiNote="66"  rootNote="66" path="Samples/SmallMicInside/SmallMicInside_3F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="67" hiNote="67"  rootNote="67" path="Samples/SmallMicInside/SmallMicInside_3G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="68" hiNote="68"  rootNote="68" path="Samples/SmallMicInside/SmallMicInside_3G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="69" hiNote="69"  rootNote="69" path="Samples/SmallMicInside/SmallMicInside_3A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="70" hiNote="70"  rootNote="70" path="Samples/SmallMicInside/SmallMicInside_3A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="71" hiNote="71"  rootNote="71" path="Samples/SmallMicInside/SmallMicInside_3B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="72" hiNote="72"  rootNote="72" path="Samples/SmallMicInside/SmallMicInside_4C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="73" hiNote="73"  rootNote="73" path="Samples/SmallMicInside/SmallMicInside_4C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="74" hiNote="74"  rootNote="74" path="Samples/SmallMicInside/SmallMicInside_4D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="75" hiNote="75"  rootNote="75" path="Samples/SmallMicInside/SmallMicInside_4D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="76" hiNote="76"  rootNote="76" path="Samples/SmallMicInside/SmallMicInside_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="77" hiNote="77"  rootNote="77" path="Samples/SmallMicInside/SmallMicInside_4F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="78" hiNote="78"  rootNote="78" path="Samples/SmallMicInside/SmallMicInside_4F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="79" hiNote="79"  rootNote="79" path="Samples/SmallMicInside/SmallMicInside_4G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="80" hiNote="80"  rootNote="80" path="Samples/SmallMicInside/SmallMicInside_4G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="81" hiNote="81"  rootNote="81" path="Samples/SmallMicInside/SmallMicInside_4A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="82" hiNote="82"  rootNote="82" path="Samples/SmallMicInside/SmallMicInside_4A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="83" hiNote="83"  rootNote="83" path="Samples/SmallMicInside/SmallMicInside_4B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="84" hiNote="84"  rootNote="84" path="Samples/SmallMicInside/SmallMicInside_5C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="85" hiNote="85"  rootNote="85" path="Samples/SmallMicInside/SmallMicInside_5C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="86" hiNote="86"  rootNote="86" path="Samples/SmallMicInside/SmallMicInside_5D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="87" hiNote="87"  rootNote="87" path="Samples/SmallMicInside/SmallMicInside_5D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="88" hiNote="88"  rootNote="88" path="Samples/SmallMicInside/SmallMicInside_5E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="89" hiNote="89"  rootNote="89" path="Samples/SmallMicInside/SmallMicInside_5F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="90" hiNote="90"  rootNote="90" path="Samples/SmallMicInside/SmallMicInside_5F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="91" hiNote="91"  rootNote="91" path="Samples/SmallMicInside/SmallMicInside_5G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="92" hiNote="92"  rootNote="92" path="Samples/SmallMicInside/SmallMicInside_5G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="93" hiNote="93"  rootNote="93" path="Samples/SmallMicInside/SmallMicInside_5A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="94" hiNote="94"  rootNote="94" path="Samples/SmallMicInside/SmallMicInside_5A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="95" hiNote="95"  rootNote="95" path="Samples/SmallMicInside/SmallMicInside_5B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="96" hiNote="96"  rootNote="96" path="Samples/SmallMicInside/SmallMicInside_6C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+        </group>
+        <group tags="condenser">
+            <sample loNote="24" hiNote="24"  rootNote="24" path="Samples/C451E/C451E_0C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="25" hiNote="25"  rootNote="25" path="Samples/C451E/C451E_0C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="26" hiNote="26"  rootNote="26" path="Samples/C451E/C451E_0D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="27" hiNote="27"  rootNote="27" path="Samples/C451E/C451E_0D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="28" hiNote="28"  rootNote="28" path="Samples/C451E/C451E_0E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="29" hiNote="29"  rootNote="29" path="Samples/C451E/C451E_0F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="30" hiNote="30"  rootNote="30" path="Samples/C451E/C451E_0F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="31" hiNote="31"  rootNote="31" path="Samples/C451E/C451E_0G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="32" hiNote="32"  rootNote="32" path="Samples/C451E/C451E_0G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="33" hiNote="33"  rootNote="33" path="Samples/C451E/C451E_0A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="34" hiNote="34"  rootNote="34" path="Samples/C451E/C451E_0A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="35" hiNote="35"  rootNote="35" path="Samples/C451E/C451E_0B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="36" hiNote="36"  rootNote="36" path="Samples/C451E/C451E_1C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="37" hiNote="37"  rootNote="37" path="Samples/C451E/C451E_1C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="38" hiNote="38"  rootNote="38" path="Samples/C451E/C451E_1D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="39" hiNote="39"  rootNote="39" path="Samples/C451E/C451E_1D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="40" hiNote="40"  rootNote="40" path="Samples/C451E/C451E_1E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="41" hiNote="41"  rootNote="41" path="Samples/C451E/C451E_1F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="42" hiNote="42"  rootNote="42" path="Samples/C451E/C451E_1F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="43" hiNote="43"  rootNote="43" path="Samples/C451E/C451E_1G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="44" hiNote="44"  rootNote="44" path="Samples/C451E/C451E_1G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="45" hiNote="45"  rootNote="45" path="Samples/C451E/C451E_1A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="46" hiNote="46"  rootNote="46" path="Samples/C451E/C451E_1A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="47" hiNote="47"  rootNote="47" path="Samples/C451E/C451E_1B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="48" hiNote="48"  rootNote="48" path="Samples/C451E/C451E_2C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="49" hiNote="49"  rootNote="49" path="Samples/C451E/C451E_2C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="50" hiNote="50"  rootNote="50" path="Samples/C451E/C451E_2D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="51" hiNote="51"  rootNote="51" path="Samples/C451E/C451E_2D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="52" hiNote="52"  rootNote="52" path="Samples/C451E/C451E_2E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="53" hiNote="53"  rootNote="53" path="Samples/C451E/C451E_2F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="54" hiNote="54"  rootNote="54" path="Samples/C451E/C451E_2F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="55" hiNote="55"  rootNote="55" path="Samples/C451E/C451E_2G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="56" hiNote="56"  rootNote="56" path="Samples/C451E/C451E_2G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="57" hiNote="57"  rootNote="57" path="Samples/C451E/C451E_2A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="58" hiNote="58"  rootNote="58" path="Samples/C451E/C451E_2A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="59" hiNote="59"  rootNote="59" path="Samples/C451E/C451E_2B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="60" hiNote="60"  rootNote="60" path="Samples/C451E/C451E_3C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="61" hiNote="61"  rootNote="61" path="Samples/C451E/C451E_3C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="62" hiNote="62"  rootNote="62" path="Samples/C451E/C451E_3D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="63" hiNote="63"  rootNote="63" path="Samples/C451E/C451E_3D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="64" hiNote="64"  rootNote="64" path="Samples/C451E/C451E_3E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="65" hiNote="65"  rootNote="65" path="Samples/C451E/C451E_3F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="66" hiNote="66"  rootNote="66" path="Samples/C451E/C451E_3F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="67" hiNote="67"  rootNote="67" path="Samples/C451E/C451E_3G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="68" hiNote="68"  rootNote="68" path="Samples/C451E/C451E_3G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="69" hiNote="69"  rootNote="69" path="Samples/C451E/C451E_3A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="70" hiNote="70"  rootNote="70" path="Samples/C451E/C451E_3A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="71" hiNote="71"  rootNote="71" path="Samples/C451E/C451E_3B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="72" hiNote="72"  rootNote="72" path="Samples/C451E/C451E_4C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="73" hiNote="73"  rootNote="73" path="Samples/C451E/C451E_4C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="74" hiNote="74"  rootNote="74" path="Samples/C451E/C451E_4D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="75" hiNote="75"  rootNote="75" path="Samples/C451E/C451E_4D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="76" hiNote="76"  rootNote="76" path="Samples/C451E/C451E_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="77" hiNote="77"  rootNote="77" path="Samples/C451E/C451E_4F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="78" hiNote="78"  rootNote="78" path="Samples/C451E/C451E_4F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="79" hiNote="79"  rootNote="79" path="Samples/C451E/C451E_4G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="80" hiNote="80"  rootNote="80" path="Samples/C451E/C451E_4G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="81" hiNote="81"  rootNote="81" path="Samples/C451E/C451E_4A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="82" hiNote="82"  rootNote="82" path="Samples/C451E/C451E_4A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="83" hiNote="83"  rootNote="83" path="Samples/C451E/C451E_4B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="84" hiNote="84"  rootNote="84" path="Samples/C451E/C451E_5C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="85" hiNote="85"  rootNote="85" path="Samples/C451E/C451E_5C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="86" hiNote="86"  rootNote="86" path="Samples/C451E/C451E_5D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="87" hiNote="87"  rootNote="87" path="Samples/C451E/C451E_5D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="88" hiNote="88"  rootNote="88" path="Samples/C451E/C451E_5E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="89" hiNote="89"  rootNote="89" path="Samples/C451E/C451E_5F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="90" hiNote="90"  rootNote="90" path="Samples/C451E/C451E_5F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="91" hiNote="91"  rootNote="91" path="Samples/C451E/C451E_5G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="92" hiNote="92"  rootNote="92" path="Samples/C451E/C451E_5G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="93" hiNote="93"  rootNote="93" path="Samples/C451E/C451E_5A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="94" hiNote="94"  rootNote="94" path="Samples/C451E/C451E_5A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="95" hiNote="95"  rootNote="95" path="Samples/C451E/C451E_5B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+            <sample loNote="96" hiNote="96"  rootNote="96" path="Samples/C451E/C451E_6C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+        </group>
+    </groups>
+    <effects>
+        <effect type="convolution" irFile="IR/echo.wav" mix="0.0" />
+        <effect type="convolution" irFile="IR/reverb.wav" mix="0.0" />
+    </effects>
+</DecentSampler>
