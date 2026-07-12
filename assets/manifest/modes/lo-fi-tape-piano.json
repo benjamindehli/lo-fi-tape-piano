@@ -745,6 +745,96 @@
           "sampleRate": 48000.0,
           "pitchKeyTrack": true,
           "start": 0
+        },
+        {
+          "source": "flac:Telephone_6C#",
+          "loNote": 97,
+          "hiNote": 97,
+          "rootNote": 97,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:Telephone_6D",
+          "loNote": 98,
+          "hiNote": 98,
+          "rootNote": 98,
+          "lengthFrames": 312000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:Telephone_6D#",
+          "loNote": 99,
+          "hiNote": 99,
+          "rootNote": 99,
+          "lengthFrames": 264000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:Telephone_6E",
+          "loNote": 100,
+          "hiNote": 100,
+          "rootNote": 100,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:Telephone_6F",
+          "loNote": 101,
+          "hiNote": 101,
+          "rootNote": 101,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:Telephone_6F#",
+          "loNote": 102,
+          "hiNote": 102,
+          "rootNote": 102,
+          "lengthFrames": 192000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:Telephone_6G",
+          "loNote": 103,
+          "hiNote": 103,
+          "rootNote": 103,
+          "lengthFrames": 192000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:Telephone_6G#",
+          "loNote": 104,
+          "hiNote": 104,
+          "rootNote": 104,
+          "lengthFrames": 234000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:Telephone_6A",
+          "loNote": 105,
+          "hiNote": 105,
+          "rootNote": 105,
+          "lengthFrames": 576000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
         }
       ]
     },
@@ -1480,6 +1570,96 @@
           "hiNote": 96,
           "rootNote": 96,
           "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6C#",
+          "loNote": 97,
+          "hiNote": 97,
+          "rootNote": 97,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6D",
+          "loNote": 98,
+          "hiNote": 98,
+          "rootNote": 98,
+          "lengthFrames": 312000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6D#",
+          "loNote": 99,
+          "hiNote": 99,
+          "rootNote": 99,
+          "lengthFrames": 264000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6E",
+          "loNote": 100,
+          "hiNote": 100,
+          "rootNote": 100,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6F",
+          "loNote": 101,
+          "hiNote": 101,
+          "rootNote": 101,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6F#",
+          "loNote": 102,
+          "hiNote": 102,
+          "rootNote": 102,
+          "lengthFrames": 192000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6G",
+          "loNote": 103,
+          "hiNote": 103,
+          "rootNote": 103,
+          "lengthFrames": 192000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6G#",
+          "loNote": 104,
+          "hiNote": 104,
+          "rootNote": 104,
+          "lengthFrames": 234000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SmallMicInside_6A",
+          "loNote": 105,
+          "hiNote": 105,
+          "rootNote": 105,
+          "lengthFrames": 576000,
           "sampleRate": 48000.0,
           "pitchKeyTrack": true,
           "start": 0
@@ -2221,6 +2401,96 @@
           "sampleRate": 48000.0,
           "pitchKeyTrack": true,
           "start": 0
+        },
+        {
+          "source": "flac:C451E_6C#",
+          "loNote": 97,
+          "hiNote": 97,
+          "rootNote": 97,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:C451E_6D",
+          "loNote": 98,
+          "hiNote": 98,
+          "rootNote": 98,
+          "lengthFrames": 312000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:C451E_6D#",
+          "loNote": 99,
+          "hiNote": 99,
+          "rootNote": 99,
+          "lengthFrames": 264000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:C451E_6E",
+          "loNote": 100,
+          "hiNote": 100,
+          "rootNote": 100,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:C451E_6F",
+          "loNote": 101,
+          "hiNote": 101,
+          "rootNote": 101,
+          "lengthFrames": 288000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:C451E_6F#",
+          "loNote": 102,
+          "hiNote": 102,
+          "rootNote": 102,
+          "lengthFrames": 192000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:C451E_6G",
+          "loNote": 103,
+          "hiNote": 103,
+          "rootNote": 103,
+          "lengthFrames": 192000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:C451E_6G#",
+          "loNote": 104,
+          "hiNote": 104,
+          "rootNote": 104,
+          "lengthFrames": 234000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:C451E_6A",
+          "loNote": 105,
+          "hiNote": 105,
+          "rootNote": 105,
+          "lengthFrames": 576000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
         }
       ]
     }
@@ -2557,7 +2827,7 @@
       "colors": [
         {
           "loNote": 24,
-          "hiNote": 96,
+          "hiNote": 105,
           "color": "none"
         }
       ]

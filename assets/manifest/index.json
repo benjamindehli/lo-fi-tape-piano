@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "format": "dmse-manifest",
-  "library": "lo-fi-tape-piano",
+  "library": "DecentSampler",
   "gainDb": -13.0,
   "modes": [
     "lo-fi-tape-piano"
