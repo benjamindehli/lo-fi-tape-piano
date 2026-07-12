@@ -3,6 +3,6 @@
     "normalizeIr": false,
     "reverbGain": -13,
     "keyboardColors": {
-        "default": [{ "loNote": 24, "hiNote": 96, "color": "none" }]
+        "default": [{ "loNote": 24, "hiNote": 105, "color": "none" }]
     }
 }
