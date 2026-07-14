@@ -8,5 +8,5 @@
 dmse_add_plugin(LoFiTapePiano
     PRODUCT_NAME "Lo-fi Tape Piano"
     PLUGIN_CODE  Lftp
-    VERSION      1.0.0
+    VERSION      3.0.0
 )
