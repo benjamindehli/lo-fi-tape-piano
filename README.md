@@ -26,6 +26,12 @@ If you want the sound of a perfectly voiced and regulated grand piano, this may 
 - Standalone application (macOS, Windows and Linux)
 - Decent Sampler
 
+## User Interface
+
+|![Overview](/Screenshots/lo-fi-tape-piano.png)|
+|:--:|
+|Overview|
+
 ## The plugin version
 
 The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
