@@ -6,7 +6,7 @@ If you want the sound of a perfectly voiced and regulated grand piano, this may 
 
 ## Release notes
 
-### Version 3.0.0 (2026-07-18)
+### Version 3.0.0 (2026-07-19)
 
 - Added a plugin version. See the section "The plugin version".
 - Added missing sample bindings.
