@@ -30,12 +30,6 @@ The plugin version is currently released for macOS only.
 Windows and Linux versions are planned.
 Until then, the Decent Sampler version covers those platforms.
 
-## User Interface
-
-|![Overview](/Screenshots/lo-fi-tape-piano.png)|
-|:--:|
-|Overview|
-
 ## The plugin version
 
 The plugin is a self-contained instrument, available as VST3, AU and Standalone.
@@ -59,6 +53,12 @@ This version of Lo-fi Tape Piano is an instrument preset / sample library for De
 | **Gooseneck mic samples** |      48 kHz |    24 bit | 1 (mono)   |              82 | 159.70 MB |
 | **Condenser mic samples** |      48 kHz |    24 bit | 2 (stereo) |              82 | 318.20 MB |
 |     **Impulse responses** |      48 kHz |    24 bit | 2 (stereo) |               2 |   1.70 MB |
+
+## User Interface
+
+|![Overview](/Screenshots/lo-fi-tape-piano.png)|
+|:--:|
+|Overview|
 
 ## About this repository
 
