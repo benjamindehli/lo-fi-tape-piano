@@ -2779,9 +2779,7 @@
                 "level": "instrument",
                 "targetId": "fx_convolution",
                 "parameter": "FX_MIX",
-                "factor": 0.01,
-                "effectIndex": 0,
-                "position": 0
+                "factor": 0.01
               }
             ]
           },
@@ -2812,9 +2810,7 @@
                 "level": "instrument",
                 "targetId": "fx_convolution_2",
                 "parameter": "FX_MIX",
-                "factor": 0.01,
-                "effectIndex": 1,
-                "position": 1
+                "factor": 0.01
               }
             ]
           }
