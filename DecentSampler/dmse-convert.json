@@ -2,6 +2,10 @@
     "gain": -13,
     "normalizeIr": false,
     "reverbGain": -13,
+    "overlay": {
+        "default": "Resources/overlay_default.png"
+    },
+    "overlayScope": "instrument",
     "keyboardColors": {
         "default": [{ "loNote": 24, "hiNote": 105, "color": "none" }]
     }
