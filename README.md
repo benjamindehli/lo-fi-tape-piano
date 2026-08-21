@@ -1,5 +1,7 @@
 # Lo-fi Tape Piano
 
+**[Product page and documentation](https://benjamindehli.github.io/lo-fi-tape-piano/)**
+
 Lo-fi Tape Piano from Dehli Musikk includes the sound of a Louis Zwicki Pianette recorded with cassette tape recorder through 3 different microphones. The preamps of the tape recorder are slightly overdriven and the tape adds compression and harmonics as well as wow and flutter (pitch variation).
 
 If you want the sound of a perfectly voiced and regulated grand piano, this may not be the samples for you. This is more like a Mellotron / Chamberlin version of the Pianette.
