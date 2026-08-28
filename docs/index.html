@@ -33,32 +33,48 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://benjamindehli.github.io/lo-fi-tape-piano/#website",
+      "name": "Lo-fi Tape Piano",
+      "url": "https://benjamindehli.github.io/lo-fi-tape-piano/",
+      "description": "Product page and documentation for Lo-fi Tape Piano, a sample instrument by Dehli Musikk.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
+      },
+      "publisher": {
+        "@id": "https://www.dehlimusikk.no/"
+      },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "about": {
+        "@id": "https://www.dehlimusikk.no/products/lo-fi-tape-piano/#product"
+      },
+      "sameAs": "https://github.com/benjamindehli/lo-fi-tape-piano"
+    },
+    {
       "@type": "SoftwareApplication",
-      "@id": "https://store.dehlimusikk.no/l/lo-fi-tape-piano",
+      "@id": "https://www.dehlimusikk.no/products/lo-fi-tape-piano/#product",
       "name": "Lo-fi Tape Piano",
       "description": "Lo-fi Tape Piano from Dehli Musikk includes the sound of a Louis Zwicki Pianette recorded with cassette tape recorder through 3 different microphones.",
       "url": "https://benjamindehli.github.io/lo-fi-tape-piano/",
       "applicationCategory": "MultimediaApplication",
       "applicationSubCategory": "Sample library / virtual instrument",
       "author": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://www.dehlimusikk.no/"
       },
       "operatingSystem": "macOS, Windows, Linux",
       "softwareVersion": "3.1.0",
       "datePublished": "2026-08-01",
       "image": "https://benjamindehli.github.io/lo-fi-tape-piano/img/screenshots-lo-fi-tape-piano.webp",
       "screenshot": [
-        "https://benjamindehli.github.io/lo-fi-tape-piano/img/screenshots-lo-fi-tape-piano.webp",
         "https://benjamindehli.github.io/lo-fi-tape-piano/img/screenshots-lo-fi-tape-piano.webp"
       ],
       "sameAs": [
+        "https://www.dehlimusikk.no/products/lo-fi-tape-piano/",
+        "https://www.dehlimusikk.no/en/products/lo-fi-tape-piano/",
         "https://store.dehlimusikk.no/l/lo-fi-tape-piano",
         "https://www.roqstar.io/item/lo-fi-tape-piano",
         "https://www.cylex.no/bedrift-produkt/lo-fi+tape+piano_223136.html",
@@ -78,6 +94,18 @@
           "description": "Pay what you want, from $9.99"
         }
       }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f",
+      "name": "Benjamin Dehli",
+      "url": "https://www.dehlimusikk.no/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dehlimusikk.no/",
+      "name": "Dehli Musikk",
+      "url": "https://www.dehlimusikk.no/"
     }
   ]
 }
