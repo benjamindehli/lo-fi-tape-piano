@@ -1,0 +1,161 @@
+# Lo-fi Tape Piano
+
+> Lo-fi Tape Piano: a Louis Zwicki Pianette recorded to cassette through three microphones, with tape compression, wow and flutter. VST3, AU, Decent Sampler.
+
+A sample instrument by Dehli Musikk. This is the markdown version of https://benjamindehli.github.io/lo-fi-tape-piano/, generated from the repository README.
+
+## Key facts
+
+- Plugin: VST3, AU and Standalone for macOS
+- Decent Sampler: macOS, Windows and Linux
+- Version: 3.1.0 (2026-08-01)
+- Price: Pay what you want, from $9.99
+- Sample rate: 48 kHz
+- Bit depth: 24 bit
+- Samples: 246 files
+- Sample content: 637.6 MB
+
+## Links
+
+- [Product page](https://benjamindehli.github.io/lo-fi-tape-piano/)
+- [Lo-fi Tape Piano at Dehli Musikk](https://www.dehlimusikk.no/en/products/lo-fi-tape-piano/)
+- [Get it](https://store.dehlimusikk.no/l/lo-fi-tape-piano)
+- [Source on GitHub](https://github.com/benjamindehli/lo-fi-tape-piano)
+- [Lo-fi Tape Piano (sample pack)](https://benjamindehli.github.io/lo-fi-tape-piano/video/)
+
+## Video chapters
+
+- [0:00 Intro](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=0)
+- [0:40 Example 1: Televerket Elektrisk Bureau (Telephone mic)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=40)
+- [1:07 Example 1: JTS CX-516 (Gooseneck mic inside)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=67)
+- [1:35 Example 1: AKG C451E (Stereo pair)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=95)
+- [2:04 Example 2: Televerket Elektrisk Bureau (Telephone mic)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=124)
+- [2:20 Example 2: JTS CX-516 (Gooseneck mic inside)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=140)
+- [2:36 Example 2: AKG C451E (Stereo pair)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=156)
+- [2:53 Example 3: Televerket Elektrisk Bureau (Telephone mic)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=173)
+- [3:09 Example 3: JTS CX-516 (Gooseneck mic inside)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=189)
+- [3:25 Example 3: AKG C451E (Stereo pair)](https://benjamindehli.github.io/lo-fi-tape-piano/video/?t=205)
+
+## Frequently asked questions
+
+### What is Lo-fi Tape Piano?
+
+Lo-fi Tape Piano: a Louis Zwicki Pianette recorded to cassette through three microphones, with tape compression, wow and flutter. VST3, AU, Decent Sampler.
+
+### Which formats does Lo-fi Tape Piano come in?
+
+Lo-fi Tape Piano is available as VST3, AU and Standalone for macOS, and as a Decent Sampler library for macOS, Windows and Linux.
+
+### Does Lo-fi Tape Piano run on Windows or Linux?
+
+The plugin version is released for macOS only. On Windows and Linux, the Decent Sampler version of Lo-fi Tape Piano covers the same instrument.
+
+### Does Lo-fi Tape Piano work in Logic Pro and Ableton Live?
+
+Yes. Lo-fi Tape Piano is available as both VST3 and AU, so it loads in any macOS host that reads those formats, including Logic Pro, Ableton Live, Cubase, Reaper and Studio One.
+
+### Do I need Decent Sampler to use Lo-fi Tape Piano?
+
+Not for the plugin version. It is a self-contained instrument with its samples embedded, so there are no external files to install or locate. The Decent Sampler version is a sample library, and that one needs the free Decent Sampler application.
+
+### What sample rate and bit depth is Lo-fi Tape Piano recorded at?
+
+The samples are 48 kHz, 24 bit.
+
+### How many samples does Lo-fi Tape Piano contain?
+
+246 sample files, 637.6 MB of audio. Impulse responses for the effects are not counted in that figure.
+
+### How much does Lo-fi Tape Piano cost?
+
+Lo-fi Tape Piano is pay what you want, from $9.99, so the price shown is the minimum rather than a fixed one.
+
+### Where can I download Lo-fi Tape Piano?
+
+From the Dehli Musikk store at https://store.dehlimusikk.no/l/lo-fi-tape-piano.
+
+### Is the source code for Lo-fi Tape Piano available?
+
+Yes. The repository is public at https://github.com/benjamindehli/lo-fi-tape-piano and licensed under GPL-3.0. The audio files are not in the repository, because the samples are a paid product.
+
+---
+
+Lo-fi Tape Piano from Dehli Musikk includes the sound of a Louis Zwicki Pianette recorded with cassette tape recorder through 3 different microphones. The preamps of the tape recorder are slightly overdriven and the tape adds compression and harmonics as well as wow and flutter (pitch variation).
+
+If you want the sound of a perfectly voiced and regulated grand piano, this may not be the samples for you. This is more like a Mellotron / Chamberlin version of the Pianette.
+
+## Release notes
+
+### Version 3.1.0 (2026-08-01)
+
+The changes in this release apply to the plugin version only. The DecentSampler version is unchanged.
+
+- Added a translucent overlay graphic on top of the interface.
+- Keys that are hovered or held on the keyboard are now shaded in a neutral way instead of turning yellow:
+  - White keys turn darker.
+  - Black keys turn brighter.
+- The computer keyboard keeps playing notes even while you adjust a control with the mouse.
+
+### Version 3.0.0 (2026-07-19)
+
+- Added a plugin version. See the section "The plugin version".
+- Added missing sample bindings.
+
+### Version 2.0.0 (2025-04-17)
+
+- Decent Sampler version released
+
+### Version 1.0.0 (2020-05-17)
+
+- EXS version released
+
+## Included formats
+
+- VST3 (macOS)
+- AU (macOS)
+- Standalone application (macOS)
+- Decent Sampler (macOS, Windows and Linux)
+
+The plugin version is currently released for macOS only.
+Windows and Linux versions are planned.
+Until then, the Decent Sampler version covers those platforms.
+
+## The plugin version
+
+The plugin is a self-contained instrument, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
+
+## The Decent Sampler version
+
+This version of Lo-fi Tape Piano is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
+
+## Technical specification
+
+|                           | Sample rate | Bit depth | Channels   | Number of files | File size |
+| ------------------------: | ----------: | --------: | ---------- | --------------: | --------: |
+| **Telephone mic samples** |      48 kHz |    24 bit | 1 (mono)   |              82 | 159.70 MB |
+| **Gooseneck mic samples** |      48 kHz |    24 bit | 1 (mono)   |              82 | 159.70 MB |
+| **Condenser mic samples** |      48 kHz |    24 bit | 2 (stereo) |              82 | 318.20 MB |
+|     **Impulse responses** |      48 kHz |    24 bit | 2 (stereo) |               2 |   1.70 MB |
+
+## User Interface
+
+|![Overview](https://benjamindehli.github.io/lo-fi-tape-piano/img/screenshots-lo-fi-tape-piano.webp)|
+|:--:|
+|Overview|
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
+
+[Gumroad profile]: https://store.dehlimusikk.no/
+[Decent Sampler guide]: https://www.decentsamples.com/how-to-use-decent-sampler/
