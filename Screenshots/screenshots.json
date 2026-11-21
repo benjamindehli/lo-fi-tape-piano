@@ -1,0 +1,19 @@
+{
+    "scale": 2,
+    "shots": [
+        {
+            "file": "lo-fi-tape-piano.png",
+            "mode": "Lo-fi Tape Piano",
+            "window": true,
+            "set": {
+                "Telephone mic": 6.6667,
+                "Gooseneck mic": 3.5,
+                "Condenser mic": 8.3333,
+                "Echo": 20.0,
+                "Reverb": 35.0,
+                "pitchDrift": 0.21,
+                "volumeDrift": 0.3
+            }
+        }
+    ]
+}
