@@ -2,7 +2,7 @@ Lo-fi Tape Piano er en Louis Zwicki Pianette spilt inn på en kassettspiller med
 
 Tre mikrofoner tok opp samtidig, og hver av dem er et eget lag du kan mikse: en telefonmikrofon og en svanehalsmikrofon i mono, og et par kondensatormikrofoner i stereo. Bland dem for alt fra tynt og boksete til et fyldigere og romsligere bilde av instrumentet.
 
-246 sampler i 48 kHz / 24 bit og to impulsresponser, bygd inn i pluginen som tapsfri FLAC. Dette er det eldste biblioteket i serien. Det begynte som et EXS24-instrument i 2020, ble et Decent Sampler-bibliotek i 2025 og er nå en plugin.
+246 sampler i 48 kHz / 24 bit og to impulsresponser, lagret som tapsfri FLAC i én samplefil som installasjonsprogrammet legger på plass. Dette er det eldste biblioteket i serien. Det begynte som et EXS24-instrument i 2020, ble et Decent Sampler-bibliotek i 2025 og er nå en plugin.
 
 ## Funksjoner
 
@@ -11,4 +11,4 @@ Tre mikrofoner tok opp samtidig, og hver av dem er et eget lag du kan mikse: en 
 - Tre mikrofonlag med egne nivåer: telefonmikrofon og svanehalsmikrofon i mono, kondensatormikrofoner i stereo.
 - Effekter fra impulsresponser.
 - Mellotron- og Chamberlin-karakter i stedet for et rent piano.
-- 246 sampler i 48 kHz / 24 bit, bygd inn tapsfritt (639 MB kildebibliotek).
+- 246 sampler i 48 kHz / 24 bit, lagret tapsfritt (639 MB kildebibliotek).
